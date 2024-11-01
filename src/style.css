@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Itim";
+    src: url("@/assets/fonts/Itim-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Futura";
+    src: url("@/assets/fonts/FuturaBoldItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Shrikhand";
+    src: url("@/assets/fonts/Shrikhand-Regular.ttf") format("truetype");
+}
