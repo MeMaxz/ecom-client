@@ -19,9 +19,9 @@ onMounted(() => {
 
 <template>
   <UserLayout>
-    <section class="flex">
+    <section class="flex min-h-[calc(100vh-4rem)]">
       <!-- Hero Picture -->
-      <img :src="hero" class="w-1/3" />
+      <img :src="hero" />
       <!-- Hero Text -->
       <div class="flex flex-col items-center justify-center w-full px-20">
         <div class="text-9xl text-[#8c52ff] font-bold font-futura">

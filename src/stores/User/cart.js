@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import axios from "axios";
 
-Omise.setPublicKey("pkey_test_618665rkgbpmntzoj85");
+Omise.setPublicKey("pkey_test_61mnub9r1w8ngqqs8qf");
 
 const createSource = (paymentMethod, amount) => {
   return new Promise((resolve, reject) => {
